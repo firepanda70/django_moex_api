@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "gjango-moex-api"
+version = "0.1.0"
+description = "Simple service for requesting USD to RUB rate from MOEX Informational & Statistical Server."
+authors = ["Kochurov Mikhail <firepanda70@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+django = "^5.0.1"
+djangorestframework = "^3.14.0"
+markdown = "^3.5.2"
+requests = "^2.31.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
