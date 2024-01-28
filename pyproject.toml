@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "gjango-moex-api"
+name = "django-moex-api"
 version = "0.1.0"
 description = "Simple service for requesting USD to RUB rate from MOEX Informational & Statistical Server."
 authors = ["Kochurov Mikhail <firepanda70@gmail.com>"]
